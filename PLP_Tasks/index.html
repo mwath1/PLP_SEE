@@ -1,0 +1,55 @@
+<!DOCTYPE html>       <!-- must be the firsline as it declare documenttype and version(HTML5)  -->
+<html lang="en">      <!--'lang' specifies the language,'en'-english -->
+    <head>            <!--Not desplayed on the web page,contains meta-information about the document-->
+        <meta charset="UTF-8">      <!--Specifies character encoding, UTF-8 covers most characters and symbols-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Tells browser to match screen's width and scale to 1.0-->
+        <meta name="description" content="A simple tribute page">
+        <title>Tribute to Sun Tzu</title>    <!--Appears on the browser tab,also used when bookmarking the page-->
+    </head>
+    <body>            <!--Everything on the bowser is contained here-->
+        <header>      <!--contains the navigation links and usually the introductory content-->
+            <nav>     <!--navigation links for easy accesibility to content-->
+                <ul>  <!--creates a list in bulleted form-->
+                    <li><a href="#intoduction">Introduction</a></li>  <!--'li' defines the list items-->
+                    <li><a href="#origin">Origin</a></li>
+                    <li><a href="#end">End</a></li>                   <!--'a' defines a hyperlink-->
+                </ul>        
+            </nav>
+        </header>
+        <!--<section>- defines the section of a document
+        aria-labelledby' etablishes a relationship between an element and its label
+        'id' gives a unique identifier
+        <p> defines a paragraph
+        <br> breaks lines an a paragraph
+        <em>makes the font slant/italics
+        <stong> and <b> makes the font apper bold
+        'src'- specifies image path, 'alt'gives a description of image for screen readers
+        -->
+    
+            <section aria-labelledby="introduction"> 
+                <h1 id="introduction">Tribute to Sun Tzu </h1>
+                <p>Sun Tzu (544-496 BCE) was a Chinese military general, strategist, and philosopher born in the state of Qi during the Spring and Autumn Period of ancient China. Little is known about his early life, but his brilliance in warfare and leadership earned him a place as a revered military advisor to King Helü of Wu. His insights into conflict, discipline, and tactical superiority laid the foundation for his legendary legacy.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg" alt="A potrait painting of the chinese general/philosopher"/>
+                <p id="image caption"><em>Qin era representation of Sun Tzu</em></p>
+            </section>
+            <section aria-labelledby="Origin">
+                <h3 id="origin">The Birth of a Strategist</h3>
+                <p id="tribute-info">Sun Tzu is traditionally credited as the author of The Art of War, an influential work of military strategy that has affected both Western and East Asian philosophy and military thought.<br>Sun Tzu is revered in Chinese and East Asian culture as a legendary historical and military figure.His birth name was <b>Sun Wu</b> and he was known outside of his family by his courtesy name Changqing.The name <em>Sun Tzu</em> by which he is more popularly known—is an honorific which means <u>"Master Sun"</u>.</p>  
+                <a href="https://en.wikipedia.org/wiki/Sun_Tzu#:~:text=His%20birth%20name%20was%20Sun,which%20means%20%22Master%20Sun%22." target="_blank">read more</a>
+                </section>
+            <section aria-labelledby="end">
+                <h3 id="end">Accomplishments & Works</h3>
+                <p>Sun Tzu's most enduring contribution is The<strong> Art of War <em>(Sunzi Bingfa)</em></strong>, a timeless treatise on military strategy that transcends warfare, influencing business, politics, and sports. His principles—such as <em>"Know yourself and your enemy</em>, and <em>you will never be defeated"</em> and <em>"The supreme art of war is to subdue the enemy without fighting"</em>—emphasize deception, adaptability, and psychological advantage. His work remains essential reading for leaders worldwide.</p>
+                <p><strong>Explore The Art of War:</strong><a href="https://www.gutenberg.org/ebooks/132">The Art of War - Project Gutenberg(Free eBook)</a></p>
+            </section>
+            <section id="End">
+                <h3>The End of a Legend</h3>
+                <p>The details of Sun Tzu's death remain shrouded in mystery, but his influence never faded. Some accounts suggest he retired after serving King Helü, while others claim he died in obscurity. Regardless, his wisdom outlived him, shaping centuries of military thought and strategy. Sun Tzu’s legacy endures as the ultimate guide to mastering conflict, proving that true victory lies not just in battle, but in wisdom and foresight.</p>
+                <p class="quote"><em>"All warfare is based on deception." — Sun Tzu</em></p>
+                <p><strong>Learn about Sun Tzu's legacy:</strong><a href="https://www.britannica.com/biography/Sunzi">Sun Tzu’s Influence - Britannica</a></p>
+            </section>
+    </body>
+    <footer>            <!--usually contains copyright info,links related to document and contact info-->
+         <p><em>© 2025 Sun Tzu Tribute Page. All rights reserved.<br>For educational purposes only.</em></p>
+    </footer>
+</html>
